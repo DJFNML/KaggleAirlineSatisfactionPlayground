@@ -1,0 +1,13 @@
+# Environment
+.venv/
+__pycache__/
+
+# Competition data (not redistributable)
+kagglehub/
+
+# Large or regenerable outputs
+results/preds/
+results/probe/
+results/*.db
+submissions/
+catboost_info/

@@ -1,0 +1,27 @@
+# Python 3.14. Install with:
+#   python -m pip install -r requirements.txt
+# PyTorch comes from PyTorch's own CUDA 13.0 index (needed for RTX 50-series GPUs);
+# the "+cu130" pin makes sure the GPU build is installed instead of the CPU-only one.
+--extra-index-url https://download.pytorch.org/whl/cu130
+
+# Data and metrics
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+kagglehub==1.0.2
+
+# Gradient-boosted trees
+xgboost==3.4.1
+lightgbm==4.7.0
+catboost==1.2.10
+
+# Hyperparameter tuning
+optuna==5.0.0
+SQLAlchemy==2.1.4
+
+# Neural / foundation models
+torch==2.14.1+cu130
+tabm==0.0.3
+rtdl_num_embeddings==0.0.12
+tabpfn==9.2.0
