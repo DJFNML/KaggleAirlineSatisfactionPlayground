@@ -1,0 +1,5 @@
+base 200k x 8: AUC 0.96071 | 3 random 200k x 8 averaged 0.96123
+200k x 4: AUC 0.96070 (-0.00000 vs base) | averaged with the 3 random passes 0.96119 | peak 9.9 GB | fit 10 min, total 12 min
+400k x 4: AUC 0.96163 (+0.00092 vs base) | averaged with the 3 random passes 0.96145 | peak 13.7 GB | fit 36 min, total 57 min
+300k x 4: AUC 0.96126 (+0.00056 vs base) | averaged with the 3 random passes 0.96132 | peak 10.6 GB | fit 22 min, total 27 min
+[W1027 13:36:46.000000000 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 2675965952 bytes (free: 0, total: 12820480000).

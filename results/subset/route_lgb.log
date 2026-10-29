@@ -1,0 +1,79 @@
+19:11:44 route: 699635 training rows, features ['Flight Distance', 'Departure/Arrival time convenient', 'Ease of Online booking', 'Gate location', 'Online boarding', 'Seat comfort', 'Baggage handling', 'Cleanliness', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Class']
+19:13:06 route_lgb trial 0: AUC 0.94509, 2280 trees, 80s
+19:22:32 route_lgb trial 1: AUC 0.94435, 5459 trees, 566s
+19:30:40 route_lgb trial 2: AUC 0.94336, 8274 trees, 488s
+19:38:24 route_lgb trial 3: AUC 0.94348, 8265 trees, 463s
+19:40:49 route_lgb trial 4: AUC 0.94413, 4533 trees, 144s
+19:42:21 route_lgb trial 5: AUC 0.94421, 2664 trees, 92s
+19:45:24 route_lgb trial 6: AUC 0.94213, 9918 trees, 183s
+19:45:46 route_lgb trial 7: AUC 0.94200, 641 trees, 21s
+19:48:02 route_lgb trial 8: AUC 0.94207, 6491 trees, 136s
+19:49:10 route_lgb trial 9: AUC 0.94368, 2720 trees, 68s
+19:50:06 route_lgb trial 10: AUC 0.94348, 1426 trees, 55s
+19:54:00 route_lgb trial 11: AUC 0.94381, 9995 trees, 234s
+19:57:04 route_lgb trial 12: AUC 0.94483, 5275 trees, 183s
+19:58:01 route_lgb trial 13: AUC 0.94503, 1426 trees, 57s
+20:00:08 route_lgb trial 14: AUC 0.94079, 6289 trees, 127s
+20:01:18 route_lgb trial 15: AUC 0.94477, 626 trees, 69s
+20:02:10 route_lgb trial 16: AUC 0.94489, 1241 trees, 52s
+20:03:59 route_lgb trial 17: AUC 0.94460, 2880 trees, 109s
+20:05:39 route_lgb trial 18: AUC 0.94490, 3010 trees, 100s
+20:08:16 route_lgb trial 19: AUC 0.94449, 5759 trees, 157s
+20:09:07 route_lgb trial 20: AUC 0.94523, 781 trees, 51s
+20:10:17 route_lgb trial 21: AUC 0.94509, 532 trees, 69s
+20:11:18 route_lgb trial 22: AUC 0.94505, 870 trees, 61s
+20:12:40 route_lgb trial 23: AUC 0.94495, 2299 trees, 82s
+20:13:48 route_lgb trial 24: AUC 0.94488, 1495 trees, 68s
+20:15:08 route_lgb trial 25: AUC 0.94495, 532 trees, 79s
+20:17:14 route_lgb trial 26: AUC 0.94477, 4099 trees, 126s
+20:18:31 route_lgb trial 27: AUC 0.94493, 525 trees, 77s
+20:19:26 route_lgb trial 28: AUC 0.94487, 690 trees, 54s
+20:20:12 route_lgb trial 29: AUC 0.94516, 503 trees, 46s
+20:21:23 route_lgb trial 30: AUC 0.94525, 1627 trees, 70s
+20:23:03 route_lgb trial 31: AUC 0.94498, 2751 trees, 99s
+20:24:14 route_lgb trial 32: AUC 0.94534, 1264 trees, 72s
+20:25:18 route_lgb trial 33: AUC 0.94507, 413 trees, 63s
+20:26:14 route_lgb trial 34: AUC 0.94540, 861 trees, 56s
+20:27:25 route_lgb trial 35: AUC 0.94523, 1305 trees, 70s
+20:28:24 route_lgb trial 36: AUC 0.94526, 873 trees, 59s
+20:29:56 route_lgb trial 37: AUC 0.94508, 2643 trees, 91s
+20:31:04 route_lgb trial 38: AUC 0.94484, 1543 trees, 68s
+20:32:22 route_lgb trial 39: AUC 0.94519, 1821 trees, 78s
+20:33:07 route_lgb trial 40: AUC 0.94534, 589 trees, 45s
+20:33:53 route_lgb trial 41: AUC 0.94532, 593 trees, 45s
+20:34:44 route_lgb trial 42: AUC 0.94547, 765 trees, 51s
+20:35:33 route_lgb trial 43: AUC 0.94542, 616 trees, 48s
+20:36:32 route_lgb trial 44: AUC 0.94532, 588 trees, 58s
+20:37:18 route_lgb trial 45: AUC 0.94545, 761 trees, 46s
+20:38:08 route_lgb trial 46: AUC 0.94536, 730 trees, 50s
+20:38:55 route_lgb trial 47: AUC 0.94529, 732 trees, 47s
+20:39:48 route_lgb trial 48: AUC 0.94530, 697 trees, 53s
+20:40:31 route_lgb trial 49: AUC 0.94534, 496 trees, 42s
+20:41:15 route_lgb trial 50: AUC 0.94532, 781 trees, 44s
+20:42:12 route_lgb trial 51: AUC 0.94519, 560 trees, 56s
+20:43:14 route_lgb trial 52: AUC 0.94535, 1194 trees, 62s
+20:44:02 route_lgb trial 53: AUC 0.94524, 967 trees, 47s
+20:44:56 route_lgb trial 54: AUC 0.94528, 587 trees, 54s
+20:45:43 route_lgb trial 55: AUC 0.94540, 750 trees, 47s
+20:46:34 route_lgb trial 56: AUC 0.94545, 689 trees, 50s
+20:47:19 route_lgb trial 57: AUC 0.94548, 588 trees, 45s
+20:48:15 route_lgb trial 58: AUC 0.94542, 1063 trees, 56s
+20:49:09 route_lgb trial 59: AUC 0.94528, 1353 trees, 53s
+20:49:09 route_lgb: best trial 57 AUC 0.94548 {'num_leaves': 178, 'min_child_samples': 189, 'feature_fraction': 0.8500000000000001, 'bagging_fraction': 0.7, 'lambda_l1': 0.0012315439652704748, 'lambda_l2': 0.00357449460567979, 'min_gain_to_split': 0.005785475883585502}
+20:53:07 route: 699635 training rows, features ['Flight Distance', 'Departure/Arrival time convenient', 'Ease of Online booking', 'Gate location', 'Online boarding', 'Seat comfort', 'Baggage handling', 'Cleanliness', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Class']
+20:53:59 route_lgb fold 1/15: AUC 0.94797, 710 trees
+20:54:52 route_lgb fold 2/15: AUC 0.94803, 731 trees
+20:55:37 route_lgb fold 3/15: AUC 0.94627, 597 trees
+20:56:25 route_lgb fold 4/15: AUC 0.94436, 660 trees
+20:57:23 route_lgb fold 5/15: AUC 0.94571, 816 trees
+20:58:29 route_lgb fold 6/15: AUC 0.94674, 960 trees
+20:59:14 route_lgb fold 7/15: AUC 0.94674, 620 trees
+21:00:06 route_lgb fold 8/15: AUC 0.94732, 703 trees
+21:01:18 route_lgb fold 9/15: AUC 0.94713, 995 trees
+21:02:05 route_lgb fold 10/15: AUC 0.94695, 647 trees
+21:03:10 route_lgb fold 11/15: AUC 0.94741, 918 trees
+21:04:30 route_lgb fold 12/15: AUC 0.94779, 1132 trees
+21:05:16 route_lgb fold 13/15: AUC 0.94727, 603 trees
+21:06:01 route_lgb fold 14/15: AUC 0.94661, 659 trees
+21:07:04 route_lgb fold 15/15: AUC 0.94626, 615 trees
+21:07:04 route_lgb: OOF AUC 0.94683 on 699635 rows, 13.9 min -> subset_route_lgb.npz

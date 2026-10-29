@@ -1,0 +1,22 @@
+13:38:11 TabPFN: 400000-row contexts (key-value cache, int8), up to 1 passes, predict chunk 10000
+14:33:00 tabpfn400k_e4 pass 1 fold 2/15: AUC 0.96066, 54.8 min -> tabpfn400k_e4_c0_fold2.npz
+15:27:47 tabpfn400k_e4 pass 1 fold 3/15: AUC 0.96058, 54.8 min -> tabpfn400k_e4_c0_fold3.npz
+16:22:33 tabpfn400k_e4 pass 1 fold 4/15: AUC 0.95983, 54.8 min -> tabpfn400k_e4_c0_fold4.npz
+17:24:48 tabpfn400k_e4 pass 1 fold 5/15: AUC 0.95939, 62.3 min -> tabpfn400k_e4_c0_fold5.npz
+18:29:38 tabpfn400k_e4 pass 1 fold 6/15: AUC 0.96113, 64.8 min -> tabpfn400k_e4_c0_fold6.npz
+19:30:21 tabpfn400k_e4 pass 1 fold 7/15: AUC 0.96146, 60.7 min -> tabpfn400k_e4_c0_fold7.npz
+21:23:12 TabPFN: 400000-row contexts (key-value cache, int8), up to 1 passes, predict chunk 5000
+22:50:03 tabpfn400k_e4 pass 1 fold 8/15: AUC 0.96145, 86.8 min -> tabpfn400k_e4_c0_fold8.npz
+00:16:50 tabpfn400k_e4 pass 1 fold 9/15: AUC 0.96158, 86.8 min -> tabpfn400k_e4_c0_fold9.npz
+11:59:48 TabPFN: 400000-row contexts (key-value cache, int8), up to 1 passes, predict chunk 5000
+13:44:49 tabpfn400k_e4 pass 1 fold 10/15: AUC 0.96065, 105.0 min -> tabpfn400k_e4_c0_fold10.npz
+15:05:36 tabpfn400k_e4 pass 1 fold 11/15: AUC 0.96105, 80.8 min -> tabpfn400k_e4_c0_fold11.npz
+16:26:29 tabpfn400k_e4 pass 1 fold 12/15: AUC 0.96195, 80.9 min -> tabpfn400k_e4_c0_fold12.npz
+17:47:20 tabpfn400k_e4 pass 1 fold 13/15: AUC 0.96132, 80.8 min -> tabpfn400k_e4_c0_fold13.npz
+19:09:03 tabpfn400k_e4 pass 1 fold 14/15: AUC 0.96070, 81.7 min -> tabpfn400k_e4_c0_fold14.npz
+19:09:03 results/HOLD_tabpfn exists, stopping (finished files are kept)
+19:09:25 TabPFN: 400000-row contexts (key-value cache, int8), up to 1 passes, predict chunk 10000
+20:06:18 tabpfn400k_e4 pass 1 fold 15/15: AUC 0.96066, 56.9 min -> tabpfn400k_e4_c0_fold15.npz
+23:07:44 tabpfn400k_e4 pass 1 test: 181.4 min -> tabpfn400k_e4_c0_test.npz
+23:07:44 tabpfn400k_e4 pass 1 complete
+23:07:44 tabpfn: all done

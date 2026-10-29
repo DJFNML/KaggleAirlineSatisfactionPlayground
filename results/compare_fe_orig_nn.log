@@ -1,0 +1,19 @@
+  [orig_nn seed 42] fold 1/5: AUC=0.95902, trees=528
+  [orig_nn seed 42] fold 2/5: AUC=0.95774, trees=479
+  [orig_nn seed 42] fold 3/5: AUC=0.95941, trees=731
+  [orig_nn seed 42] fold 4/5: AUC=0.95896, trees=511
+  [orig_nn seed 42] fold 5/5: AUC=0.95901, trees=473
+  [orig_nn seed 1] fold 1/5: AUC=0.95911, trees=607
+  [orig_nn seed 1] fold 2/5: AUC=0.95767, trees=527
+  [orig_nn seed 1] fold 3/5: AUC=0.95942, trees=534
+  [orig_nn seed 1] fold 4/5: AUC=0.95882, trees=683
+  [orig_nn seed 1] fold 5/5: AUC=0.95894, trees=457
+
+                    n_features  vs_baseline   seed42    seed1  seed_avg  seed_spread  minutes
+experiment                                                                                   
+baseline                    21      0.00000  0.95909  0.95907   0.95915      0.00002  5.64091
+teacher                     22      0.00005  0.95917  0.95911   0.95921      0.00006  4.35745
+teacher+aggregates          25     -0.00008  0.95902  0.95897   0.95907      0.00006  4.23018
+teacher+gaps                35     -0.00001  0.95908  0.95906   0.95914      0.00002  4.59818
+teacher+crosses             35     -0.00041  0.95870  0.95868   0.95875      0.00002  4.67063
+orig_nn                     25     -0.00027  0.95882  0.95878   0.95888      0.00004  5.22712

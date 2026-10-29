@@ -1,0 +1,6 @@
+00:44:39 xgb fold 1/5: AUC 0.96102, 834 rounds, 4.0 min -> xgb_fold1.npz
+00:48:01 xgb fold 2/5: AUC 0.95980, 835 rounds, 3.4 min -> xgb_fold2.npz
+00:50:59 xgb fold 3/5: AUC 0.96149, 665 rounds, 3.0 min -> xgb_fold3.npz
+00:53:38 xgb fold 4/5: AUC 0.96113, 550 rounds, 2.7 min -> xgb_fold4.npz
+00:56:27 xgb fold 5/5: AUC 0.96079, 587 rounds, 2.8 min -> xgb_fold5.npz
+00:56:27 xgb: OOF AUC 0.96083 -> results/preds/xgb_ladder_5fold.npz

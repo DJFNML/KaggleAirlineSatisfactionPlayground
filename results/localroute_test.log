@@ -1,0 +1,8 @@
+12:34:41 neighbours: 10.5 min
+12:56:59 cluster 1/3: 56,936 rows, context satisfied rate 0.793, AUC 0.70388, 22.2 min, peak 10.5 GB
+13:19:17 cluster 2/3: 58,819 rows, context satisfied rate 0.059, AUC 0.60556, 22.3 min, peak 10.5 GB
+13:39:26 cluster 3/3: 24,172 rows, context satisfied rate 0.160, AUC 0.82481, 20.1 min, peak 10.5 GB
+13:39:46 local vs random context, alone: +0.000412 (bootstrap sd 0.000122)
+13:40:03 stack + local: +0.000037 (bootstrap sd 0.000033)
+13:40:20 stack, local instead of random route: +0.000040 (bootstrap sd 0.000032)
+13:40:20 alone: local 0.96136, random 0.96095; stack on fold 1 0.96184; rank corr local/random 0.9794

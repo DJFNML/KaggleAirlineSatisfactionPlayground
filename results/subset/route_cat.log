@@ -1,0 +1,30 @@
+21:12:11 route: 699635 training rows, features ['Flight Distance', 'Departure/Arrival time convenient', 'Ease of Online booking', 'Gate location', 'Online boarding', 'Seat comfort', 'Baggage handling', 'Cleanliness', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Class']
+21:14:38 route_cat trial 0: AUC 0.94379, 4264 trees, 146s
+21:18:39 route_cat trial 1: AUC 0.94386, 9998 trees, 241s
+21:19:36 route_cat trial 2: AUC 0.94486, 1260 trees, 57s
+21:20:28 route_cat trial 3: AUC 0.94462, 1114 trees, 51s
+21:22:14 route_cat trial 4: AUC 0.94342, 4239 trees, 106s
+21:23:10 route_cat trial 5: AUC 0.94449, 672 trees, 55s
+21:26:15 route_cat trial 6: AUC 0.94412, 6031 trees, 185s
+21:26:55 route_cat trial 7: AUC 0.94454, 629 trees, 39s
+21:28:05 route_cat trial 8: AUC 0.94532, 869 trees, 70s
+21:30:19 route_cat trial 9: AUC 0.94381, 5466 trees, 134s
+21:33:00 route_cat trial 10: AUC 0.94391, 6488 trees, 160s
+21:34:25 route_cat trial 11: AUC 0.94453, 2588 trees, 85s
+21:35:32 route_cat trial 12: AUC 0.94435, 1187 trees, 67s
+21:37:47 route_cat trial 13: AUC 0.94378, 4315 trees, 135s
+21:38:38 route_cat trial 14: AUC 0.94446, 585 trees, 50s
+21:39:30 route_cat trial 15: AUC 0.94486, 1122 trees, 52s
+21:40:35 route_cat trial 16: AUC 0.94525, 809 trees, 65s
+21:41:22 route_cat trial 17: AUC 0.94459, 776 trees, 47s
+21:42:31 route_cat trial 18: AUC 0.94538, 857 trees, 69s
+21:43:38 route_cat trial 19: AUC 0.94523, 821 trees, 66s
+21:44:51 route_cat trial 20: AUC 0.94532, 874 trees, 73s
+21:45:56 route_cat trial 21: AUC 0.94526, 746 trees, 65s
+21:47:06 route_cat trial 22: AUC 0.94515, 1487 trees, 70s
+21:48:14 route_cat trial 23: AUC 0.94523, 775 trees, 67s
+21:49:40 route_cat trial 24: AUC 0.94519, 1830 trees, 86s
+21:49:41 route_cat: best trial 18 AUC 0.94538 {'depth': 10, 'l2_leaf_reg': 4.546419902248106, 'random_strength': 0.3206051165080974, 'border_count': 254, 'bootstrap_type': 'Bernoulli', 'subsample': 0.8500000000000001}
+21:49:46 route: 699635 training rows, features ['Flight Distance', 'Departure/Arrival time convenient', 'Ease of Online booking', 'Gate location', 'Online boarding', 'Seat comfort', 'Baggage handling', 'Cleanliness', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Class']
+21:51:04 route_cat fold 1/15: AUC 0.94798, 948 trees
+21:52:24 route_cat fold 2/15: AUC 0.94775, 992 trees

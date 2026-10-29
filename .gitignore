@@ -11,3 +11,10 @@ results/probe/
 results/*.db
 submissions/
 catboost_info/
+
+# Row-level caches derived from the competition data (large, regenerable)
+results/full/knn/
+results/ladder/features.pkl
+*.ckpt
+results/localroute/*.npy
+results/context_select/*.npy

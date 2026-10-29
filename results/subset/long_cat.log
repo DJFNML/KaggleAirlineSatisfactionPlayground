@@ -1,0 +1,57 @@
+19:07:13 long: 174603 training rows (Flight Distance > 1814), features ['Flight Distance', 'Inflight wifi service', 'Departure/Arrival time convenient', 'Food and drink', 'Seat comfort', 'Inflight entertainment', 'On-board service', 'Leg room service', 'Cleanliness', 'Arrival Delay in Minutes', 'Class']
+19:08:08 long_cat trial 2: AUC 0.92623, 765 trees, 54s
+19:08:48 long_cat trial 3: AUC 0.92534, 368 trees, 39s
+19:09:12 long_cat trial 4: AUC 0.92461, 366 trees, 24s
+19:10:30 long_cat trial 5: AUC 0.92710, 2090 trees, 77s
+19:11:05 long_cat trial 6: AUC 0.92487, 576 trees, 34s
+19:11:46 long_cat trial 7: AUC 0.92523, 888 trees, 41s
+19:13:25 long_cat trial 8: AUC 0.92735, 2081 trees, 99s
+19:14:27 long_cat trial 9: AUC 0.92821, 787 trees, 61s
+19:14:59 long_cat trial 10: AUC 0.92366, 441 trees, 32s
+19:15:51 long_cat trial 11: AUC 0.92496, 1154 trees, 52s
+19:17:45 long_cat trial 12: AUC 0.92851, 3825 trees, 114s
+19:19:07 long_cat trial 13: AUC 0.92741, 1984 trees, 82s
+19:20:36 long_cat trial 14: AUC 0.92955, 1555 trees, 88s
+19:23:25 long_cat trial 15: AUC 0.92993, 2852 trees, 169s
+19:24:54 long_cat trial 16: AUC 0.92908, 1666 trees, 89s
+19:26:24 long_cat trial 17: AUC 0.92922, 2238 trees, 90s
+19:27:18 long_cat trial 18: AUC 0.92861, 933 trees, 53s
+19:28:49 long_cat trial 19: AUC 0.92989, 1962 trees, 91s
+19:29:34 long_cat trial 20: AUC 0.92544, 941 trees, 45s
+19:31:13 long_cat trial 21: AUC 0.92980, 2005 trees, 99s
+19:34:16 long_cat trial 22: AUC 0.92967, 2120 trees, 182s
+19:38:36 long_cat trial 23: AUC 0.92950, 1192 trees, 260s
+19:40:09 long_cat trial 24: AUC 0.92883, 1342 trees, 93s
+19:42:12 long_cat trial 25: AUC 0.92940, 3209 trees, 122s
+19:44:03 long_cat trial 26: AUC 0.92952, 2658 trees, 111s
+19:46:09 long_cat trial 27: AUC 0.92990, 2991 trees, 125s
+19:48:36 long_cat trial 28: AUC 0.92973, 4016 trees, 147s
+19:51:12 long_cat trial 29: AUC 0.92981, 3780 trees, 155s
+19:52:37 long_cat trial 30: AUC 0.92959, 1677 trees, 86s
+19:55:06 long_cat trial 31: AUC 0.93027, 3343 trees, 148s
+19:57:35 long_cat trial 32: AUC 0.93006, 3468 trees, 149s
+19:59:52 long_cat trial 33: AUC 0.92998, 3319 trees, 137s
+20:01:36 long_cat trial 34: AUC 0.92952, 2293 trees, 104s
+20:04:12 long_cat trial 35: AUC 0.93015, 3759 trees, 156s
+20:06:03 long_cat trial 36: AUC 0.92668, 2963 trees, 110s
+20:09:41 long_cat trial 37: AUC 0.92687, 6237 trees, 218s
+20:13:19 long_cat trial 38: AUC 0.92685, 6233 trees, 218s
+20:15:27 long_cat trial 39: AUC 0.92730, 3622 trees, 127s
+20:15:27 long_cat: best trial 31 AUC 0.93027 {'depth': 5, 'l2_leaf_reg': 2.073947020987141, 'random_strength': 6.857183633779703, 'border_count': 254, 'bootstrap_type': 'Bernoulli', 'subsample': 0.75}
+20:32:22 long: 174603 training rows (Flight Distance > 1814), features ['Flight Distance', 'Inflight wifi service', 'Departure/Arrival time convenient', 'Food and drink', 'Seat comfort', 'Inflight entertainment', 'On-board service', 'Leg room service', 'Cleanliness', 'Arrival Delay in Minutes', 'Class']
+20:33:55 long_cat fold 1/15: AUC 0.92649, 2066 trees
+20:35:23 long_cat fold 2/15: AUC 0.93677, 2315 trees
+20:36:11 long_cat fold 3/15: AUC 0.92834, 1175 trees
+20:37:31 long_cat fold 4/15: AUC 0.92216, 1971 trees
+20:38:26 long_cat fold 5/15: AUC 0.93073, 1347 trees
+20:39:56 long_cat fold 6/15: AUC 0.92874, 2243 trees
+20:41:01 long_cat fold 7/15: AUC 0.93472, 1683 trees
+20:42:03 long_cat fold 8/15: AUC 0.93059, 1578 trees
+20:42:55 long_cat fold 9/15: AUC 0.93080, 1194 trees
+20:44:06 long_cat fold 10/15: AUC 0.92901, 1743 trees
+20:45:11 long_cat fold 11/15: AUC 0.93123, 1637 trees
+20:46:24 long_cat fold 12/15: AUC 0.92703, 1855 trees
+20:47:37 long_cat fold 13/15: AUC 0.93626, 1802 trees
+20:48:21 long_cat fold 14/15: AUC 0.92739, 1029 trees
+20:49:34 long_cat fold 15/15: AUC 0.92890, 1928 trees
+20:49:34 long_cat: OOF AUC 0.92991 on 174603 rows, 17.2 min -> subset_long_cat.npz

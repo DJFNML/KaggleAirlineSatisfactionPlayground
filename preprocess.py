@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 
 DATA = Path(__file__).parent / "kagglehub" / "competitions" / "playground-series-s6e10"
+ORIG_DIR = Path(__file__).parent / "kagglehub" / "datasets" / "airline-passenger-satisfaction"
 
 TARGET = "satisfaction"
 CAT_COLS = ["Gender", "Customer Type", "Type of Travel", "Class"]
@@ -42,11 +43,26 @@ def _clean(df, zero_ratings_as_nan, delay_thresholds):
     return X, y
 
 
-def load_data(zero_ratings_as_nan=True, delay_thresholds=(), ratings="numeric"):
+def load_original(zero_ratings_as_nan=True):
+    """Original (real) Airline Passenger Satisfaction data, train + test, cleaned like the competition data.
+
+    Columns match the competition train set; "Inflight service" (not in the competition) is dropped.
+    Categoricals are plain strings here; callers align categories.
+    """
+    orig = pd.concat([pd.read_csv(ORIG_DIR / "train.csv"), pd.read_csv(ORIG_DIR / "test.csv")],
+                     ignore_index=True)
+    orig[TARGET] = orig[TARGET] == "satisfied"
+    columns = pd.read_csv(DATA / "train.csv", nrows=0).columns
+    return _clean(orig[columns], zero_ratings_as_nan, delay_thresholds=())
+
+
+def load_data(zero_ratings_as_nan=True, delay_thresholds=(), ratings="numeric", teacher=False):
     """Return X, y, X_test, test_ids ready for XGBoost (enable_categorical=True).
 
     ratings: "numeric" keeps ratings as numbers, "category" turns them into categories,
     "both" keeps the numbers and adds a categorical copy of each rating.
+    teacher: add "teacher", the predicted probability from a model trained only on the
+    original dataset (see teacher.py), as a feature.
     """
     train = pd.read_csv(DATA / "train.csv")
     test = pd.read_csv(DATA / "test.csv")
@@ -73,5 +89,9 @@ def load_data(zero_ratings_as_nan=True, delay_thresholds=(), ratings="numeric"):
         categories = pd.concat([X[col], X_test[col]]).astype("category").cat.categories
         X[col] = pd.Categorical(X[col], categories=categories)
         X_test[col] = pd.Categorical(X_test[col], categories=categories)
+
+    if teacher:
+        from teacher import teacher_predictions  # noqa: PLC0415 (teacher.py imports this module)
+        X["teacher"], X_test["teacher"] = teacher_predictions(X, X_test, zero_ratings_as_nan)
 
     return X, y, X_test, test["id"]

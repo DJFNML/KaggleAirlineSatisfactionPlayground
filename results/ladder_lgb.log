@@ -1,0 +1,197 @@
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+  X[f"freq_{c}"] = f
+  X[f"rar_{c}"] = (-np.log(f.clip(lower=1 / len(X)))).astype("float32")
+00:28:32 features: 268 columns (36 constant ones dropped)
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+00:30:09 lgb fold 1/5: AUC 0.96097, 375 rounds, 1.6 min -> lgb_fold1.npz
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+00:33:04 lgb fold 2/5: AUC 0.95983, 840 rounds, 2.9 min -> lgb_fold2.npz
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+00:35:23 lgb fold 3/5: AUC 0.96157, 813 rounds, 2.3 min -> lgb_fold3.npz
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+00:37:22 lgb fold 4/5: AUC 0.96119, 582 rounds, 2.0 min -> lgb_fold4.npz
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+00:40:03 lgb fold 5/5: AUC 0.96080, 844 rounds, 2.7 min -> lgb_fold5.npz
+00:40:03 lgb: OOF AUC 0.96085 -> results/preds/lgb_ladder_5fold.npz

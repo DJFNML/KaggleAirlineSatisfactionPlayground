@@ -1,0 +1,77 @@
+  org Age: 1.0000 of rows have the value in the original
+  org Flight Distance: 1.0000 of rows have the value in the original
+  org Inflight wifi service: 0.9813 of rows have the value in the original
+  org Departure/Arrival time convenient: 0.9632 of rows have the value in the original
+  org Ease of Online booking: 0.9770 of rows have the value in the original
+  org Gate location: 0.9979 of rows have the value in the original
+  org Food and drink: 0.9986 of rows have the value in the original
+  org Online boarding: 0.9869 of rows have the value in the original
+  org Seat comfort: 0.9988 of rows have the value in the original
+  org Inflight entertainment: 0.9985 of rows have the value in the original
+  org On-board service: 0.9989 of rows have the value in the original
+  org Leg room service: 0.9976 of rows have the value in the original
+  org Baggage handling: 1.0000 of rows have the value in the original
+  org Checkin service: 0.9987 of rows have the value in the original
+  org Cleanliness: 0.9986 of rows have the value in the original
+  org Departure Delay in Minutes: 1.0000 of rows have the value in the original
+  org Arrival Delay in Minutes: 0.9996 of rows have the value in the original
+  org Gender: 1.0000 of rows have the value in the original
+  org Customer Type: 1.0000 of rows have the value in the original
+  org Type of Travel: 1.0000 of rows have the value in the original
+  org Class: 1.0000 of rows have the value in the original
+base 200k x 4: AUC 0.96070 | mix 0.96172 | base on top of the mix +0.00000
+catfd: AUC 0.96139 (+0.00068 vs base, bootstrap sd 0.00018) | on top of the mix +0.00013 (w 0.35) | peak 9.9 GB | 10 min
+Traceback (most recent call last):
+  File "C:\Users\ndyla\VSProjects\KagglePlayground\tabpfn_route_test.py", line 74, in <module>
+    pred = np.concatenate([clf.predict_proba(Xp[va_idx[i:i + CHUNK]])[:, 1]
+                           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ndyla\VSProjects\KagglePlayground\.venv\Lib\site-packages\tabpfn\classifier.py", line 1724, in predict_proba
+    return self._predict_proba(X)
+           ~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ndyla\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\contextlib.py", line 85, in inner
+    return func(*args, **kwds)
+  File "C:\Users\ndyla\VSProjects\KagglePlayground\.venv\Lib\site-packages\tabpfn\classifier.py", line 1738, in _predict_proba
+    self._raw_predict(X, return_logits=False).float().detach().cpu().numpy()
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ndyla\VSProjects\KagglePlayground\.venv\Lib\site-packages\tabpfn\classifier.py", line 1644, in _raw_predict
+    with handle_oom_errors(
+         ~~~~~~~~~~~~~~~~~^
+        self.devices_,
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        n_train_samples=getattr(self, "n_train_samples_", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\ndyla\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ndyla\VSProjects\KagglePlayground\.venv\Lib\site-packages\tabpfn\errors.py", line 192, in handle_oom_errors
+    raise TabPFNCUDAOutOfMemoryError(
+    ...<5 lines>...
+    ) from None
+tabpfn.errors.TabPFNCUDAOutOfMemoryError: CUDA out of memory with 10,000 test samples.
+
+This is issue is usually caused by one of the following two reasons:
+
+1) Large test set — split into batches:
+
+    predictions = []
+    for i in range(0, len(X_test), 100):
+        pred = model.predict_proba(X_test[i:i + 100])
+        predictions.append(pred)
+    predictions = np.vstack(predictions)
+
+   Only with fit_mode='fit_with_cache', test rows are chunked
+   automatically — lower the TABPFN_MAX_BATCHED_TEST_ROWS
+   environment variable (currently 32768) to
+   reduce peak memory without changing your code.
+
+2) Large training set — batching won't help.
+   Subsample your training data; see https://docs.priorlabs.ai
+   for further guidance.
+
+Your sizes: 200,000 train / 10,000 test samples, 44 features.
+Not sure which? If model.predict_proba(X_test[:1]) also fails, it's (2).
+
+Original error: CUDA out of memory. Tried to allocate 720.00 MiB. GPU 0 has a total capacity of 11.94 GiB of which 139.47 MiB is free. Process 13772 has 17179869184.00 GiB memory in use. Process 4404 has 17179869184.00 GiB memory in use. Process 14808 has 17179869184.00 GiB memory in use. Process 21648 has 17179869184.00 GiB memory in use. Process 12116 has 17179869184.00 GiB memory in use. Process 20648 has 17179869184.00 GiB memory in use. Process 12376 has 17179869184.00 GiB memory in use. Process 20040 has 17179869184.00 GiB memory in use. Process 6172 has 17179869184.00 GiB memory in use. Process 2448 has 17179869184.00 GiB memory in use. Process 23404 has 17179869184.00 GiB memory in use. Process 6520 has 17179869184.00 GiB memory in use. Process 12920 has 17179869184.00 GiB memory in use. Process 15224 has 17179869184.00 GiB memory in use. Process 20756 has 17179869184.00 GiB memory in use. Process 11464 has 17179869184.00 GiB memory in use. Process 17688 has 17179869184.00 GiB memory in use. Process 19360 has 17179869184.00 GiB memory in use. Process 5968 has 17179869184.00 GiB memory in use. Process 21256 has 17179869184.00 GiB memory in use. Including non-PyTorch memory, this process has 17179869184.00 GiB memory in use. 10.98 GiB allowed; Of the allocated memory 8.40 GiB is allocated by PyTorch, and 2.16 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

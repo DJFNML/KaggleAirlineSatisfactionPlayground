@@ -1,0 +1,24 @@
+  org Age: 1.0000 of rows have the value in the original
+  org Flight Distance: 1.0000 of rows have the value in the original
+  org Inflight wifi service: 1.0000 of rows have the value in the original
+  org Departure/Arrival time convenient: 1.0000 of rows have the value in the original
+  org Ease of Online booking: 1.0000 of rows have the value in the original
+  org Gate location: 1.0000 of rows have the value in the original
+  org Food and drink: 1.0000 of rows have the value in the original
+  org Online boarding: 1.0000 of rows have the value in the original
+  org Seat comfort: 1.0000 of rows have the value in the original
+  org Inflight entertainment: 1.0000 of rows have the value in the original
+  org On-board service: 1.0000 of rows have the value in the original
+  org Leg room service: 1.0000 of rows have the value in the original
+  org Baggage handling: 1.0000 of rows have the value in the original
+  org Checkin service: 1.0000 of rows have the value in the original
+  org Cleanliness: 1.0000 of rows have the value in the original
+  org Departure Delay in Minutes: 1.0000 of rows have the value in the original
+  org Arrival Delay in Minutes: 1.0000 of rows have the value in the original
+  org Gender: 1.0000 of rows have the value in the original
+  org Customer Type: 1.0000 of rows have the value in the original
+  org Type of Travel: 1.0000 of rows have the value in the original
+  org Class: 1.0000 of rows have the value in the original
+base 200k x 4: AUC 0.96070 | mix 0.96172 | base on top of the mix +0.00000
+catfd: AUC 0.96139 (+0.00068 vs base, bootstrap sd 0.00018) | on top of the mix +0.00013 (w 0.35) | peak 9.9 GB | 10 min
+catfd_org: AUC 0.96110 (+0.00039 vs base, bootstrap sd 0.00021) | on top of the mix +0.00013 (w 0.25) | peak 9.1 GB | 11 min

@@ -1,0 +1,12 @@
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+outer fold 1: blend 0.96168 (xgb 0.05 / lgb 0.00) | stacker 0.96167 (-0.00001, 338 trees)
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+outer fold 2: blend 0.96047 (xgb 0.10 / lgb 0.00) | stacker 0.96042 (-0.00005, 307 trees)
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+outer fold 3: blend 0.96075 (xgb 0.05 / lgb 0.00) | stacker 0.96078 (+0.00004, 258 trees)
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+outer fold 4: blend 0.96086 (xgb 0.10 / lgb 0.00) | stacker 0.96086 (-0.00001, 306 trees)
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+outer fold 5: blend 0.96139 (xgb 0.05 / lgb 0.00) | stacker 0.96144 (+0.00005, 358 trees)
+mean: blend 0.96103 | stacker 0.96104 (+0.00000, better on 2/5)
+stacker not clearly better: no submission written

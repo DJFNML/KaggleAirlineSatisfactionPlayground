@@ -1,0 +1,30 @@
+05:54:43 realmlp fold 1/5: AUC 0.96142, 2.2 min
+05:56:52 realmlp fold 2/5: AUC 0.96023, 2.2 min
+05:59:02 realmlp fold 3/5: AUC 0.96192, 2.2 min
+06:01:13 realmlp fold 4/5: AUC 0.96117, 2.2 min
+06:03:23 realmlp fold 5/5: AUC 0.96109, 2.2 min
+06:03:24 realmlp: OOF AUC 0.96116 -> results/preds/realmlp_s1_5fold.npz
+06:05:48 realmlp fold 1/5: AUC 0.96151, 2.2 min
+06:07:58 realmlp fold 2/5: AUC 0.96019, 2.2 min
+06:10:08 realmlp fold 3/5: AUC 0.96198, 2.2 min
+06:12:18 realmlp fold 4/5: AUC 0.96118, 2.2 min
+06:14:27 realmlp fold 5/5: AUC 0.96107, 2.2 min
+06:14:27 realmlp: OOF AUC 0.96117 -> results/preds/realmlp_s2_5fold.npz
+06:17:44 realmlp fold 1/5: AUC 0.96137, 2.2 min
+06:19:56 realmlp fold 2/5: AUC 0.96017, 2.2 min
+06:22:06 realmlp fold 3/5: AUC 0.96184, 2.2 min
+06:24:17 realmlp fold 4/5: AUC 0.96116, 2.2 min
+06:26:29 realmlp fold 5/5: AUC 0.96110, 2.2 min
+06:26:30 realmlp: OOF AUC 0.96112 -> results/preds/realmlp_s3_5fold.npz
+06:28:58 realmlp fold 1/5: AUC 0.96141, 2.2 min
+06:31:12 realmlp fold 2/5: AUC 0.96017, 2.2 min
+06:33:25 realmlp fold 3/5: AUC 0.96191, 2.2 min
+06:35:38 realmlp fold 4/5: AUC 0.96123, 2.2 min
+06:37:50 realmlp fold 5/5: AUC 0.96103, 2.2 min
+06:37:50 realmlp: OOF AUC 0.96114 -> results/preds/realmlp_s4_5fold.npz
+06:40:17 realmlp fold 1/5: AUC 0.96138, 2.2 min
+06:42:28 realmlp fold 2/5: AUC 0.96017, 2.2 min
+06:44:39 realmlp fold 3/5: AUC 0.96190, 2.2 min
+06:46:50 realmlp fold 4/5: AUC 0.96119, 2.2 min
+06:49:02 realmlp fold 5/5: AUC 0.96113, 2.2 min
+06:49:02 realmlp: OOF AUC 0.96114 -> results/preds/realmlp_s5_5fold.npz

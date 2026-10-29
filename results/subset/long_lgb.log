@@ -1,0 +1,77 @@
+18:50:10 long: 174603 training rows (Flight Distance > 1814), features ['Flight Distance', 'Inflight wifi service', 'Departure/Arrival time convenient', 'Food and drink', 'Seat comfort', 'Inflight entertainment', 'On-board service', 'Leg room service', 'Cleanliness', 'Arrival Delay in Minutes', 'Class']
+18:50:40 long_lgb trial 2: AUC 0.92936, 578 trees, 29s
+18:50:54 long_lgb trial 3: AUC 0.92922, 631 trees, 13s
+18:51:09 long_lgb trial 4: AUC 0.92571, 1835 trees, 14s
+18:51:41 long_lgb trial 5: AUC 0.92869, 3078 trees, 32s
+18:52:03 long_lgb trial 6: AUC 0.92945, 1846 trees, 21s
+18:52:28 long_lgb trial 7: AUC 0.92935, 584 trees, 25s
+18:52:45 long_lgb trial 8: AUC 0.92660, 1202 trees, 17s
+18:53:31 long_lgb trial 9: AUC 0.92807, 4271 trees, 46s
+18:53:55 long_lgb trial 10: AUC 0.92972, 567 trees, 23s
+18:54:45 long_lgb trial 11: AUC 0.92829, 2684 trees, 50s
+18:55:10 long_lgb trial 12: AUC 0.92935, 2487 trees, 25s
+18:55:31 long_lgb trial 13: AUC 0.92645, 2510 trees, 20s
+18:55:56 long_lgb trial 14: AUC 0.92354, 3765 trees, 25s
+18:56:24 long_lgb trial 15: AUC 0.92967, 1371 trees, 27s
+18:56:46 long_lgb trial 16: AUC 0.92996, 575 trees, 22s
+18:57:12 long_lgb trial 17: AUC 0.92983, 397 trees, 26s
+18:57:43 long_lgb trial 18: AUC 0.92979, 544 trees, 30s
+18:58:08 long_lgb trial 19: AUC 0.92943, 401 trees, 25s
+18:58:30 long_lgb trial 20: AUC 0.92931, 519 trees, 22s
+18:58:57 long_lgb trial 21: AUC 0.92965, 405 trees, 26s
+18:59:20 long_lgb trial 22: AUC 0.93016, 508 trees, 23s
+18:59:44 long_lgb trial 23: AUC 0.92983, 441 trees, 23s
+19:00:13 long_lgb trial 24: AUC 0.92978, 422 trees, 29s
+19:00:30 long_lgb trial 25: AUC 0.93025, 571 trees, 17s
+19:00:53 long_lgb trial 26: AUC 0.92938, 576 trees, 22s
+19:01:16 long_lgb trial 27: AUC 0.92986, 638 trees, 23s
+19:01:37 long_lgb trial 28: AUC 0.93010, 548 trees, 20s
+19:01:53 long_lgb trial 29: AUC 0.93043, 638 trees, 16s
+19:02:13 long_lgb trial 30: AUC 0.93036, 616 trees, 20s
+19:02:36 long_lgb trial 31: AUC 0.92977, 637 trees, 22s
+19:02:59 long_lgb trial 32: AUC 0.92968, 555 trees, 24s
+19:03:24 long_lgb trial 33: AUC 0.93021, 1266 trees, 24s
+19:03:45 long_lgb trial 34: AUC 0.93057, 995 trees, 21s
+19:04:04 long_lgb trial 35: AUC 0.93015, 1008 trees, 19s
+19:04:27 long_lgb trial 36: AUC 0.92985, 878 trees, 22s
+19:04:44 long_lgb trial 37: AUC 0.93038, 635 trees, 17s
+19:05:04 long_lgb trial 38: AUC 0.93044, 807 trees, 19s
+19:05:25 long_lgb trial 39: AUC 0.93031, 678 trees, 21s
+19:06:01 long_lgb trial 40: AUC 0.93043, 619 trees, 35s
+19:06:29 long_lgb trial 41: AUC 0.93022, 573 trees, 27s
+19:06:51 long_lgb trial 42: AUC 0.93033, 1142 trees, 22s
+19:07:09 long_lgb trial 43: AUC 0.93036, 1009 trees, 18s
+19:07:21 long_lgb trial 44: AUC 0.93028, 800 trees, 12s
+19:07:37 long_lgb trial 45: AUC 0.93057, 1021 trees, 16s
+19:07:57 long_lgb trial 46: AUC 0.93007, 504 trees, 19s
+19:08:12 long_lgb trial 47: AUC 0.93043, 1055 trees, 15s
+19:08:25 long_lgb trial 48: AUC 0.93031, 811 trees, 13s
+19:08:39 long_lgb trial 49: AUC 0.93031, 803 trees, 14s
+19:08:57 long_lgb trial 50: AUC 0.93020, 1557 trees, 18s
+19:09:16 long_lgb trial 51: AUC 0.93035, 1306 trees, 18s
+19:09:35 long_lgb trial 52: AUC 0.93054, 567 trees, 19s
+19:09:52 long_lgb trial 53: AUC 0.93003, 863 trees, 17s
+19:10:11 long_lgb trial 54: AUC 0.93036, 1037 trees, 19s
+19:10:32 long_lgb trial 55: AUC 0.93042, 1439 trees, 21s
+19:10:49 long_lgb trial 56: AUC 0.93048, 889 trees, 17s
+19:11:04 long_lgb trial 57: AUC 0.93051, 577 trees, 15s
+19:11:23 long_lgb trial 58: AUC 0.93035, 803 trees, 19s
+19:11:37 long_lgb trial 59: AUC 0.93051, 567 trees, 14s
+19:11:38 long_lgb: best trial 34 AUC 0.93057 {'num_leaves': 64, 'min_child_samples': 42, 'feature_fraction': 0.7, 'bagging_fraction': 0.6, 'lambda_l1': 0.00290037279531489, 'lambda_l2': 0.09857056534559315, 'min_gain_to_split': 0.7956993947106987}
+20:49:16 long: 174603 training rows (Flight Distance > 1814), features ['Flight Distance', 'Inflight wifi service', 'Departure/Arrival time convenient', 'Food and drink', 'Seat comfort', 'Inflight entertainment', 'On-board service', 'Leg room service', 'Cleanliness', 'Arrival Delay in Minutes', 'Class']
+20:49:35 long_lgb fold 1/15: AUC 0.92862, 1156 trees
+20:49:43 long_lgb fold 2/15: AUC 0.93739, 573 trees
+20:49:53 long_lgb fold 3/15: AUC 0.92976, 525 trees
+20:50:07 long_lgb fold 4/15: AUC 0.92516, 818 trees
+20:50:21 long_lgb fold 5/15: AUC 0.93126, 711 trees
+20:50:39 long_lgb fold 6/15: AUC 0.92940, 1128 trees
+20:50:51 long_lgb fold 7/15: AUC 0.93527, 560 trees
+20:51:00 long_lgb fold 8/15: AUC 0.93135, 563 trees
+20:51:15 long_lgb fold 9/15: AUC 0.93285, 778 trees
+20:51:32 long_lgb fold 10/15: AUC 0.93127, 1078 trees
+20:51:46 long_lgb fold 11/15: AUC 0.93453, 855 trees
+20:52:06 long_lgb fold 12/15: AUC 0.93071, 1287 trees
+20:52:29 long_lgb fold 13/15: AUC 0.93888, 1392 trees
+20:52:45 long_lgb fold 14/15: AUC 0.92996, 971 trees
+20:53:00 long_lgb fold 15/15: AUC 0.93095, 960 trees
+20:53:00 long_lgb: OOF AUC 0.93176 on 174603 rows, 3.7 min -> subset_long_lgb.npz

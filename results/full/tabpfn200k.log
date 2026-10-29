@@ -1,0 +1,57 @@
+21:48:17 TabPFN: 200000-row contexts (key-value cache, int8), up to 3 passes, predict chunk 10000
+22:15:12 tabpfn200k pass 1 fold 1/15: AUC 0.96071, 26.9 min -> tabpfn200k_c0_fold1.npz
+22:42:09 tabpfn200k pass 1 fold 2/15: AUC 0.96029, 26.9 min -> tabpfn200k_c0_fold2.npz
+23:09:08 tabpfn200k pass 1 fold 3/15: AUC 0.95969, 27.0 min -> tabpfn200k_c0_fold3.npz
+23:36:05 tabpfn200k pass 1 fold 4/15: AUC 0.95901, 26.9 min -> tabpfn200k_c0_fold4.npz
+00:03:01 tabpfn200k pass 1 fold 5/15: AUC 0.95875, 26.9 min -> tabpfn200k_c0_fold5.npz
+00:29:58 tabpfn200k pass 1 fold 6/15: AUC 0.96066, 27.0 min -> tabpfn200k_c0_fold6.npz
+00:56:55 tabpfn200k pass 1 fold 7/15: AUC 0.96060, 27.0 min -> tabpfn200k_c0_fold7.npz
+01:23:54 tabpfn200k pass 1 fold 8/15: AUC 0.96069, 27.0 min -> tabpfn200k_c0_fold8.npz
+01:50:53 tabpfn200k pass 1 fold 9/15: AUC 0.96081, 27.0 min -> tabpfn200k_c0_fold9.npz
+02:17:51 tabpfn200k pass 1 fold 10/15: AUC 0.96002, 27.0 min -> tabpfn200k_c0_fold10.npz
+02:44:47 tabpfn200k pass 1 fold 11/15: AUC 0.96041, 26.9 min -> tabpfn200k_c0_fold11.npz
+03:11:44 tabpfn200k pass 1 fold 12/15: AUC 0.96101, 26.9 min -> tabpfn200k_c0_fold12.npz
+03:38:39 tabpfn200k pass 1 fold 13/15: AUC 0.96085, 26.9 min -> tabpfn200k_c0_fold13.npz
+04:05:33 tabpfn200k pass 1 fold 14/15: AUC 0.96016, 26.9 min -> tabpfn200k_c0_fold14.npz
+04:32:30 tabpfn200k pass 1 fold 15/15: AUC 0.96014, 27.0 min -> tabpfn200k_c0_fold15.npz
+05:38:44 tabpfn200k pass 1 test: 66.2 min -> tabpfn200k_c0_test.npz
+05:38:44 tabpfn200k pass 1 complete
+06:05:42 tabpfn200k pass 2 fold 1/15: AUC 0.96085, 27.0 min -> tabpfn200k_c1_fold1.npz
+06:32:39 tabpfn200k pass 2 fold 2/15: AUC 0.96022, 26.9 min -> tabpfn200k_c1_fold2.npz
+06:59:38 tabpfn200k pass 2 fold 3/15: AUC 0.96013, 27.0 min -> tabpfn200k_c1_fold3.npz
+07:26:35 tabpfn200k pass 2 fold 4/15: AUC 0.95901, 27.0 min -> tabpfn200k_c1_fold4.npz
+07:53:33 tabpfn200k pass 2 fold 5/15: AUC 0.95884, 27.0 min -> tabpfn200k_c1_fold5.npz
+08:20:32 tabpfn200k pass 2 fold 6/15: AUC 0.96055, 27.0 min -> tabpfn200k_c1_fold6.npz
+08:47:29 tabpfn200k pass 2 fold 7/15: AUC 0.96105, 26.9 min -> tabpfn200k_c1_fold7.npz
+09:14:28 tabpfn200k pass 2 fold 8/15: AUC 0.96116, 27.0 min -> tabpfn200k_c1_fold8.npz
+09:41:25 tabpfn200k pass 2 fold 9/15: AUC 0.96086, 26.9 min -> tabpfn200k_c1_fold9.npz
+10:08:23 tabpfn200k pass 2 fold 10/15: AUC 0.95997, 27.0 min -> tabpfn200k_c1_fold10.npz
+10:35:41 tabpfn200k pass 2 fold 11/15: AUC 0.96068, 27.3 min -> tabpfn200k_c1_fold11.npz
+11:02:38 tabpfn200k pass 2 fold 12/15: AUC 0.96088, 26.9 min -> tabpfn200k_c1_fold12.npz
+11:29:58 tabpfn200k pass 2 fold 13/15: AUC 0.96041, 27.3 min -> tabpfn200k_c1_fold13.npz
+11:56:55 tabpfn200k pass 2 fold 14/15: AUC 0.95978, 26.9 min -> tabpfn200k_c1_fold14.npz
+12:23:40 tabpfn200k pass 2 fold 15/15: AUC 0.96041, 26.7 min -> tabpfn200k_c1_fold15.npz
+13:27:23 tabpfn200k pass 2 test: 63.7 min -> tabpfn200k_c1_test.npz
+13:27:23 tabpfn200k pass 2 complete
+13:55:48 tabpfn200k pass 3 fold 1/15: AUC 0.96080, 28.4 min -> tabpfn200k_c2_fold1.npz
+14:24:19 tabpfn200k pass 3 fold 2/15: AUC 0.96014, 28.5 min -> tabpfn200k_c2_fold2.npz
+14:51:57 tabpfn200k pass 3 fold 3/15: AUC 0.95991, 27.6 min -> tabpfn200k_c2_fold3.npz
+15:20:10 tabpfn200k pass 3 fold 4/15: AUC 0.95867, 28.2 min -> tabpfn200k_c2_fold4.npz
+15:20:10 results/HOLD_tabpfn exists, stopping (finished files are kept)
+17:05:29 TabPFN: 200000-row contexts (key-value cache, int8), up to 3 passes, predict chunk 10000
+17:05:29 tabpfn200k pass 1 complete
+17:05:29 tabpfn200k pass 2 complete
+17:37:30 tabpfn200k pass 3 fold 5/15: AUC 0.95851, 32.0 min -> tabpfn200k_c2_fold5.npz
+18:08:49 tabpfn200k pass 3 fold 6/15: AUC 0.96088, 31.3 min -> tabpfn200k_c2_fold6.npz
+18:36:00 tabpfn200k pass 3 fold 7/15: AUC 0.96082, 27.2 min -> tabpfn200k_c2_fold7.npz
+19:03:09 tabpfn200k pass 3 fold 8/15: AUC 0.96110, 27.1 min -> tabpfn200k_c2_fold8.npz
+19:30:38 tabpfn200k pass 3 fold 9/15: AUC 0.96061, 27.5 min -> tabpfn200k_c2_fold9.npz
+19:59:01 tabpfn200k pass 3 fold 10/15: AUC 0.95980, 28.4 min -> tabpfn200k_c2_fold10.npz
+20:25:46 tabpfn200k pass 3 fold 11/15: AUC 0.96038, 26.7 min -> tabpfn200k_c2_fold11.npz
+20:52:29 tabpfn200k pass 3 fold 12/15: AUC 0.96095, 26.7 min -> tabpfn200k_c2_fold12.npz
+21:19:12 tabpfn200k pass 3 fold 13/15: AUC 0.96020, 26.7 min -> tabpfn200k_c2_fold13.npz
+21:45:56 tabpfn200k pass 3 fold 14/15: AUC 0.95999, 26.7 min -> tabpfn200k_c2_fold14.npz
+22:12:51 tabpfn200k pass 3 fold 15/15: AUC 0.96039, 26.9 min -> tabpfn200k_c2_fold15.npz
+23:16:47 tabpfn200k pass 3 test: 63.9 min -> tabpfn200k_c2_test.npz
+23:16:47 tabpfn200k pass 3 complete
+23:16:47 tabpfn: all done

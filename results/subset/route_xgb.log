@@ -1,0 +1,80 @@
+20:15:35 route: 699635 training rows, features ['Flight Distance', 'Departure/Arrival time convenient', 'Ease of Online booking', 'Gate location', 'Online boarding', 'Seat comfort', 'Baggage handling', 'Cleanliness', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Class']
+20:16:32 route_xgb trial 0: AUC 0.94445, 9381 trees, 54s
+20:16:50 route_xgb trial 1: AUC 0.94532, 784 trees, 18s
+20:17:42 route_xgb trial 2: AUC 0.94426, 6883 trees, 51s
+20:18:30 route_xgb trial 3: AUC 0.94425, 6962 trees, 48s
+20:19:26 route_xgb trial 4: AUC 0.94472, 7039 trees, 55s
+20:19:58 route_xgb trial 5: AUC 0.94515, 699 trees, 32s
+20:20:57 route_xgb trial 6: AUC 0.94319, 10000 trees, 59s
+20:21:06 route_xgb trial 7: AUC 0.94145, 944 trees, 8s
+20:22:06 route_xgb trial 8: AUC 0.94338, 10000 trees, 60s
+20:22:39 route_xgb trial 9: AUC 0.94503, 3757 trees, 33s
+20:23:09 route_xgb trial 10: AUC 0.94555, 742 trees, 30s
+20:24:08 route_xgb trial 11: AUC 0.94330, 9981 trees, 58s
+20:24:38 route_xgb trial 12: AUC 0.94492, 4002 trees, 30s
+20:25:07 route_xgb trial 13: AUC 0.94539, 3696 trees, 29s
+20:26:06 route_xgb trial 14: AUC 0.94344, 10000 trees, 59s
+20:26:26 route_xgb trial 15: AUC 0.94526, 598 trees, 19s
+20:26:49 route_xgb trial 16: AUC 0.94564, 865 trees, 22s
+20:27:21 route_xgb trial 17: AUC 0.94544, 1160 trees, 32s
+20:27:45 route_xgb trial 18: AUC 0.94562, 916 trees, 23s
+20:28:06 route_xgb trial 19: AUC 0.94545, 1376 trees, 21s
+20:28:24 route_xgb trial 20: AUC 0.94541, 644 trees, 17s
+20:49:42 route: 699635 training rows, features ['Flight Distance', 'Departure/Arrival time convenient', 'Ease of Online booking', 'Gate location', 'Online boarding', 'Seat comfort', 'Baggage handling', 'Cleanliness', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Class']
+20:50:05 route_xgb trial 22: AUC 0.94557, 1057 trees, 22s
+20:50:27 route_xgb trial 23: AUC 0.94566, 934 trees, 22s
+20:50:56 route_xgb trial 24: AUC 0.94543, 2531 trees, 29s
+20:51:21 route_xgb trial 25: AUC 0.94560, 1406 trees, 25s
+20:51:43 route_xgb trial 26: AUC 0.94555, 1746 trees, 22s
+20:52:02 route_xgb trial 27: AUC 0.94542, 524 trees, 18s
+20:52:29 route_xgb trial 28: AUC 0.94551, 1919 trees, 27s
+20:52:55 route_xgb trial 29: AUC 0.94552, 871 trees, 25s
+20:53:17 route_xgb trial 30: AUC 0.94562, 905 trees, 22s
+20:53:32 route_xgb trial 31: AUC 0.94532, 528 trees, 15s
+20:53:58 route_xgb trial 32: AUC 0.94560, 1167 trees, 26s
+20:54:19 route_xgb trial 33: AUC 0.94551, 1216 trees, 21s
+20:54:38 route_xgb trial 34: AUC 0.94559, 940 trees, 19s
+20:55:01 route_xgb trial 35: AUC 0.94565, 956 trees, 23s
+20:55:23 route_xgb trial 36: AUC 0.94567, 1109 trees, 21s
+20:55:50 route_xgb trial 37: AUC 0.94558, 2096 trees, 27s
+20:56:15 route_xgb trial 38: AUC 0.94569, 804 trees, 24s
+20:56:39 route_xgb trial 39: AUC 0.94556, 989 trees, 23s
+20:57:02 route_xgb trial 40: AUC 0.94563, 867 trees, 23s
+20:57:30 route_xgb trial 41: AUC 0.94559, 1131 trees, 27s
+20:57:53 route_xgb trial 42: AUC 0.94561, 1062 trees, 23s
+20:58:15 route_xgb trial 43: AUC 0.94559, 1072 trees, 21s
+20:58:43 route_xgb trial 44: AUC 0.94549, 798 trees, 28s
+20:59:07 route_xgb trial 45: AUC 0.94559, 1570 trees, 23s
+20:59:33 route_xgb trial 46: AUC 0.94555, 1518 trees, 26s
+20:59:59 route_xgb trial 47: AUC 0.94556, 1361 trees, 26s
+21:00:27 route_xgb trial 48: AUC 0.94564, 773 trees, 28s
+21:00:54 route_xgb trial 49: AUC 0.94556, 1180 trees, 27s
+21:01:21 route_xgb trial 50: AUC 0.94567, 892 trees, 26s
+21:01:45 route_xgb trial 51: AUC 0.94560, 814 trees, 24s
+21:02:11 route_xgb trial 52: AUC 0.94567, 776 trees, 26s
+21:02:38 route_xgb trial 53: AUC 0.94563, 1158 trees, 26s
+21:03:07 route_xgb trial 54: AUC 0.94560, 934 trees, 29s
+21:03:35 route_xgb trial 55: AUC 0.94562, 860 trees, 27s
+21:04:02 route_xgb trial 56: AUC 0.94562, 757 trees, 27s
+21:04:26 route_xgb trial 57: AUC 0.94566, 839 trees, 24s
+21:04:50 route_xgb trial 58: AUC 0.94568, 928 trees, 24s
+21:05:17 route_xgb trial 59: AUC 0.94568, 863 trees, 26s
+21:05:39 route_xgb trial 60: AUC 0.94563, 925 trees, 22s
+21:05:39 route_xgb: best trial 38 AUC 0.94569 {'max_depth': 11, 'min_child_weight': 9.64301694969829, 'gamma': 0.5170781178861537, 'subsample': 0.9, 'colsample_bytree': 0.8500000000000001, 'reg_lambda': 4.584891200538631, 'reg_alpha': 1.9637137239205549}
+21:05:47 route: 699635 training rows, features ['Flight Distance', 'Departure/Arrival time convenient', 'Ease of Online booking', 'Gate location', 'Online boarding', 'Seat comfort', 'Baggage handling', 'Cleanliness', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Class']
+21:06:14 route_xgb fold 1/15: AUC 0.94816, 844 trees
+21:06:38 route_xgb fold 2/15: AUC 0.94819, 839 trees
+21:07:04 route_xgb fold 3/15: AUC 0.94639, 781 trees
+21:07:31 route_xgb fold 4/15: AUC 0.94478, 820 trees
+21:08:01 route_xgb fold 5/15: AUC 0.94585, 961 trees
+21:08:34 route_xgb fold 6/15: AUC 0.94683, 1122 trees
+21:08:59 route_xgb fold 7/15: AUC 0.94699, 650 trees
+21:09:25 route_xgb fold 8/15: AUC 0.94752, 703 trees
+21:09:54 route_xgb fold 9/15: AUC 0.94716, 893 trees
+21:10:19 route_xgb fold 10/15: AUC 0.94682, 807 trees
+21:10:43 route_xgb fold 11/15: AUC 0.94767, 1229 trees
+21:11:08 route_xgb fold 12/15: AUC 0.94773, 1377 trees
+21:11:24 route_xgb fold 13/15: AUC 0.94710, 573 trees
+21:11:45 route_xgb fold 14/15: AUC 0.94673, 1007 trees
+21:12:05 route_xgb fold 15/15: AUC 0.94621, 822 trees
+21:12:05 route_xgb: OOF AUC 0.94693 on 699635 rows, 6.3 min -> subset_route_xgb.npz

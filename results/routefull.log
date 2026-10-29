@@ -1,0 +1,17 @@
+01:58:25 tabpfn300k_route: 23 features, 300,000-row contexts x 4 members, 5 folds
+02:17:03   fold 1: context fitted, 18.6 min, peak 10.5 GB
+02:25:51 tabpfn300k_route fold 1/5: AUC 0.96095, 27.4 min
+02:44:43 tabpfn300k_route fold 1/5: test predicted, 46.3 min total
+03:03:19   fold 2: context fitted, 18.6 min, peak 10.5 GB
+03:12:08 tabpfn300k_route fold 2/5: AUC 0.95993, 27.4 min
+03:31:00 tabpfn300k_route fold 2/5: test predicted, 46.3 min total
+03:49:36   fold 3: context fitted, 18.6 min, peak 10.5 GB
+03:58:25 tabpfn300k_route fold 3/5: AUC 0.96159, 27.4 min
+04:17:17 tabpfn300k_route fold 3/5: test predicted, 46.3 min total
+04:35:53   fold 4: context fitted, 18.6 min, peak 10.5 GB
+04:44:41 tabpfn300k_route fold 4/5: AUC 0.96111, 27.4 min
+05:03:33 tabpfn300k_route fold 4/5: test predicted, 46.3 min total
+05:22:09   fold 5: context fitted, 18.6 min, peak 10.5 GB
+05:30:58 tabpfn300k_route fold 5/5: AUC 0.96067, 27.4 min
+05:49:49 tabpfn300k_route fold 5/5: test predicted, 46.3 min total
+05:49:50 tabpfn300k_route: OOF AUC 0.96084 -> results/preds/tabpfn300k_route_5fold.npz | all done

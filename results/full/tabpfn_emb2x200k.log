@@ -1,0 +1,18 @@
+14:13:10 TabPFN, 2 clusters x 200000-row nearest-neighbour contexts (embedding space), up to 1 passes
+14:59:20 tabpfn_emb2x200k pass 1 fold 2/15: AUC 0.96014, 46.2 min -> tabpfn_emb2x200k_c0_fold2.npz
+15:45:43 tabpfn_emb2x200k pass 1 fold 3/15: AUC 0.96053, 46.4 min -> tabpfn_emb2x200k_c0_fold3.npz
+16:32:10 tabpfn_emb2x200k pass 1 fold 4/15: AUC 0.95938, 46.5 min -> tabpfn_emb2x200k_c0_fold4.npz
+17:19:36 tabpfn_emb2x200k pass 1 fold 5/15: AUC 0.95877, 47.4 min -> tabpfn_emb2x200k_c0_fold5.npz
+18:06:28 tabpfn_emb2x200k pass 1 fold 6/15: AUC 0.96101, 46.9 min -> tabpfn_emb2x200k_c0_fold6.npz
+18:54:09 tabpfn_emb2x200k pass 1 fold 7/15: AUC 0.96125, 47.7 min -> tabpfn_emb2x200k_c0_fold7.npz
+19:41:48 tabpfn_emb2x200k pass 1 fold 8/15: AUC 0.96135, 47.6 min -> tabpfn_emb2x200k_c0_fold8.npz
+20:28:41 tabpfn_emb2x200k pass 1 fold 9/15: AUC 0.96098, 46.9 min -> tabpfn_emb2x200k_c0_fold9.npz
+21:15:29 tabpfn_emb2x200k pass 1 fold 10/15: AUC 0.96070, 46.8 min -> tabpfn_emb2x200k_c0_fold10.npz
+22:02:30 tabpfn_emb2x200k pass 1 fold 11/15: AUC 0.96036, 47.0 min -> tabpfn_emb2x200k_c0_fold11.npz
+22:54:05 tabpfn_emb2x200k pass 1 fold 12/15: AUC 0.96130, 51.6 min -> tabpfn_emb2x200k_c0_fold12.npz
+23:40:51 tabpfn_emb2x200k pass 1 fold 13/15: AUC 0.96136, 46.8 min -> tabpfn_emb2x200k_c0_fold13.npz
+00:27:41 tabpfn_emb2x200k pass 1 fold 14/15: AUC 0.96019, 46.8 min -> tabpfn_emb2x200k_c0_fold14.npz
+01:14:25 tabpfn_emb2x200k pass 1 fold 15/15: AUC 0.96053, 46.7 min -> tabpfn_emb2x200k_c0_fold15.npz
+02:38:26 tabpfn_emb2x200k pass 1 test: 84.0 min -> tabpfn_emb2x200k_c0_test.npz
+02:38:26 tabpfn_emb2x200k pass 1 complete
+02:38:26 tabpfn_emb2x200k: all done

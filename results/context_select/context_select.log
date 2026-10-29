@@ -1,0 +1,30 @@
+12:32:10 fold 1: 46643 validation rows | random 200k: pass 1 0.96071, pass 2 0.96085, both 0.96112
+12:38:38 embedding nearest neighbours: 6.5 min
+12:38:40 emb4x100k: context 100000 rows (0.94 satisfied) -> 18609 rows (0.94 satisfied)
+12:38:40 emb4x100k: context 100000 rows (0.06 satisfied) -> 6370 rows (0.06 satisfied)
+12:38:40 emb4x100k: context 100000 rows (0.03 satisfied) -> 16452 rows (0.03 satisfied)
+12:38:40 emb4x100k: context 100000 rows (0.40 satisfied) -> 5212 rows (0.43 satisfied)
+12:59:15 emb4x100k: 20.6 min -> emb4x100k_fold1.npz
+12:59:15 emb4x100k: AUC 0.96033 | avg with random pass 1 0.96113 | avg with both random 0.96132
+12:59:20 emb16x50k: context 50000 rows (0.93 satisfied) -> 3000 rows (0.93 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.04 satisfied) -> 4210 rows (0.04 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.42 satisfied) -> 1700 rows (0.52 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.23 satisfied) -> 2737 rows (0.24 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.04 satisfied) -> 3103 rows (0.03 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.95 satisfied) -> 5122 rows (0.95 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.04 satisfied) -> 2108 rows (0.04 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.95 satisfied) -> 4555 rows (0.95 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.05 satisfied) -> 907 rows (0.05 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.07 satisfied) -> 3135 rows (0.07 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.03 satisfied) -> 2908 rows (0.03 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.65 satisfied) -> 903 rows (0.81 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.05 satisfied) -> 2044 rows (0.05 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.04 satisfied) -> 4273 rows (0.03 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.90 satisfied) -> 2905 rows (0.91 satisfied)
+12:59:20 emb16x50k: context 50000 rows (0.96 satisfied) -> 3033 rows (0.96 satisfied)
+13:20:31 emb16x50k: 21.2 min -> emb16x50k_fold1.npz
+13:20:31 emb16x50k: AUC 0.95999 | avg with random pass 1 0.96088 | avg with both random 0.96116
+13:20:32 emb2x200k: context 200000 rows (0.07 satisfied) -> 25685 rows (0.07 satisfied)
+13:20:32 emb2x200k: context 200000 rows (0.91 satisfied) -> 20958 rows (0.91 satisfied)
+14:12:09 emb2x200k: 51.6 min -> emb2x200k_fold1.npz
+14:12:09 emb2x200k: AUC 0.96132 | avg with random pass 1 0.96152 | avg with both random 0.96157

@@ -58,10 +58,11 @@ def nn_arrays(X, ratings_as_cat=False):
     return num.to_numpy(np.float32), np.stack(cats, axis=1).astype(np.int64), cards
 
 
-def fit_predict_tabm(X_num, X_cat, cards, y, tr_idx, va_idx, seed, cfg=TABM, trial=None):
+def fit_predict_tabm(X_num, X_cat, cards, y, tr_idx, va_idx, seed, cfg=TABM, trial=None, X_extra=None):
     """Train TabM on tr_idx (minus a 5% early-stopping slice), predict va_idx.
 
     With an Optuna trial, the inner-validation AUC is reported each epoch for pruning.
+    X_extra=(num, cat) arrays (e.g. the test set) are also predicted, returned as info["extra_pred"].
     """
     import optuna
     import rtdl_num_embeddings
@@ -140,7 +141,11 @@ def fit_predict_tabm(X_num, X_cat, cards, y, tr_idx, va_idx, seed, cfg=TABM, tri
             break
 
     model.load_state_dict(best_state)
-    return predict(xn_va, xc_va), {"epochs": epoch, "inner_val_auc": best_auc}
+    info = {"epochs": epoch, "inner_val_auc": best_auc}
+    if X_extra is not None:
+        xn_ex = torch.as_tensor((X_extra[0] - mean) / std, device=DEVICE)
+        info["extra_pred"] = predict(xn_ex, torch.as_tensor(X_extra[1], device=DEVICE))
+    return predict(xn_va, xc_va), info
 
 
 # ---------------- TabPFN ----------------
@@ -151,14 +156,19 @@ TABPFN = {
 }
 
 
+def tabpfn_matrix(X):
+    """Float matrix with integer category codes, plus the categorical column indices."""
+    Xp = X.copy()
+    cats = [c for c in CAT_COLS if c in X.columns]  # some columns may have been dropped
+    for c in cats:
+        Xp[c] = Xp[c].cat.codes  # TabPFN takes integer codes + categorical indices
+    return Xp.to_numpy(np.float32), [list(X.columns).index(c) for c in cats]
+
+
 def fit_predict_tabpfn(X, y, tr_idx, va_idx, seed):
     from tabpfn import TabPFNClassifier
 
-    Xp = X.copy()
-    for c in CAT_COLS:
-        Xp[c] = Xp[c].cat.codes  # TabPFN takes integer codes + categorical indices
-    Xp = Xp.to_numpy(np.float32)
-    cat_idx = [list(X.columns).index(c) for c in CAT_COLS]
+    Xp, cat_idx = tabpfn_matrix(X)
 
     rng = np.random.default_rng(seed)
     preds = []

@@ -1,0 +1,3 @@
+20k context: max |stock - lean| = 0.00e+00, AUC stock 0.95486 lean 0.95486
+OOM: halving row_chunk_size to 35746
+652,992-row context: out of GPU memory after 0.3 min
